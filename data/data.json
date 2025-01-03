@@ -1,0 +1,2125 @@
+{ "add_task" : [
+    {
+    "text": "Schedule a meeting with Fazil on January 1st at 2 PM.",
+    "intent": "add_task",
+    "entities": [
+      {"entity": "title", "value": "meeting with Fazil"},
+      {"entity": "date", "value": "January 1st"},
+      {"entity": "time", "value": "2 PM"}
+    ]
+  },
+  {
+    "text": "Add a task to finish the project report by Friday.",
+    "intent": "add_task",
+    "entities": [
+      {"entity": "title", "value": "finish the project report"},
+      {"entity": "date", "value": "Friday"}
+    ]
+  },
+  {
+    "text": "Remind me to call John on the 15th of October at 11 AM.",
+    "intent": "add_task",
+    "entities": [
+      {"entity": "title", "value": "call John"},
+      {"entity": "date", "value": "15th of October"},
+      {"entity": "time", "value": "11 AM"}
+    ]
+  },
+  {
+    "text": "Plan a meeting with the design team tomorrow at 3 PM.",
+    "intent": "add_task",
+    "entities": [
+      {"entity": "title", "value": "meeting with the design team"},
+      {"entity": "date", "value": "tomorrow"},
+      {"entity": "time", "value": "3 PM"}
+    ]
+  },
+  {
+    "text": "Set up a task to review the budget on March 5th at 9 AM.",
+    "intent": "add_task",
+    "entities": [
+      {"entity": "title", "value": "review the budget"},
+      {"entity": "date", "value": "March 5th"},
+      {"entity": "time", "value": "9 AM"}
+    ]
+  },
+  {
+    "text": "Don’t forget to submit the assignment by next Monday.",
+    "intent": "add_task",
+    "entities": [
+      {"entity": "title", "value": "submit the assignment"},
+      {"entity": "date", "value": "next Monday"}
+    ]
+  },
+  {
+    "text": "Prepare a draft for the client meeting this Wednesday at 10 AM.",
+    "intent": "add_task",
+    "entities": [
+      {"entity": "title", "value": "Prepare a draft for the client meeting"},
+      {"entity": "date", "value": "this Wednesday"},
+      {"entity": "time", "value": "10 AM"}
+    ]
+  },
+  {
+    "text": "Arrange a call with the supplier next week at 4 PM.",
+    "intent": "add_task",
+    "entities": [
+      {"entity": "title", "value": "call with the supplier"},
+      {"entity": "date", "value": "next week"},
+      {"entity": "time", "value": "4 PM"}
+    ]
+  },
+  {
+    "text": "Wake me up at 5 AM.",
+    "intent": "add_task",
+    "entities": [
+      {"entity": "title", "value": "wake up"},
+      {"entity": "time", "value": "5 AM"}
+    ]
+  },
+  {
+    "text": "Set an alarm for waking up at 6:30 tomorrow morning.",
+    "intent": "add_task",
+    "entities": [
+      {"entity": "title", "value": "wake up"},
+      {"entity": "time", "value": "6:30 AM"},
+      {"entity": "date", "value": "tomorrow"}
+    ]
+  },
+  {
+    "text": "Remind me to wake up at 7 AM every day.",
+    "intent": "add_task",
+    "entities": [
+      {"entity": "title", "value": "wake up"},
+      {"entity": "time", "value": "7 AM"},
+      {"entity": "date", "value": "every day"}
+    ]
+  },
+  {
+    "text": "Schedule a task to wake up at 4:45 AM next Monday.",
+    "intent": "add_task",
+    "entities": [
+      {"entity": "title", "value": "wake up"},
+      {"entity": "time", "value": "4:45 AM"},
+      {"entity": "date", "value": "next Monday"}
+    ]
+  },
+  {
+    "text": "Set a reminder for waking up at 8 AM sharp.",
+    "intent": "add_task",
+    "entities": [
+      {"entity": "title", "value": "wake up"},
+      {"entity": "time", "value": "8 AM"}
+    ]
+  },
+  {
+    "text": "Add a task to wake up at 6 AM on Saturday.",
+    "intent": "add_task",
+    "entities": [
+      {"entity": "title", "value": "wake up"},
+      {"entity": "time", "value": "6 AM"},
+      {"entity": "date", "value": "Saturday"}
+    ]
+  },
+  {
+    "text": "Schedule waking up at 5:30 tomorrow morning.",
+    "intent": "add_task",
+    "entities": [
+      {"entity": "title", "value": "wake up"},
+      {"entity": "time", "value": "5:30 AM"},
+      {"entity": "date", "value": "tomorrow"}
+    ]
+  },
+  {
+    "text": "Remind me to wake up at 9 AM on Sunday.",
+    "intent": "add_task",
+    "entities": [
+      {"entity": "title", "value": "wake up"},
+      {"entity": "time", "value": "9 AM"},
+      {"entity": "date", "value": "Sunday"}
+    ]
+  },
+  {
+    "text": "Please wake me up at 6:15 AM every weekday.",
+    "intent": "add_task",
+    "entities": [
+      {"entity": "title", "value": "wake up"},
+      {"entity": "time", "value": "6:15 AM"},
+      {"entity": "date", "value": "every weekday"}
+    ]
+  },
+  {
+    "text": "Add a reminder to wake me up at 4 AM tomorrow.",
+    "intent": "add_task",
+    "entities": [
+      {"entity": "title", "value": "wake up"},
+      {"entity": "time", "value": "4 AM"},
+      {"entity": "date", "value": "tomorrow"}
+    ]
+  },
+  {
+    "text": "Set up an alarm to wake up at 5:50 AM daily.",
+    "intent": "add_task",
+    "entities": [
+      {"entity": "title", "value": "wake up"},
+      {"entity": "time", "value": "5:50 AM"},
+      {"entity": "date", "value": "daily"}
+    ]
+  },
+  {
+    "text": "Plan my wake-up time at 7:30 AM on the 10th of January.",
+    "intent": "add_task",
+    "entities": [
+      {"entity": "title", "value": "wake up"},
+      {"entity": "time", "value": "7:30 AM"},
+      {"entity": "date", "value": "10th of January"}
+    ]
+  },
+  {
+    "text": "Add a task to ensure I wake up by 6 AM on Friday.",
+    "intent": "add_task",
+    "entities": [
+      {"entity": "title", "value": "wake up"},
+      {"entity": "time", "value": "6 AM"},
+      {"entity": "date", "value": "Friday"}
+    ]
+  },
+  {
+    "text": "Schedule waking me up at 5 AM on the 1st of February.",
+    "intent": "add_task",
+    "entities": [
+      {"entity": "title", "value": "wake up"},
+      {"entity": "time", "value": "5 AM"},
+      {"entity": "date", "value": "1st of February"}
+    ]
+  },
+  {
+    "text": "Create a task to wake me up at 8:30 AM tomorrow morning.",
+    "intent": "add_task",
+    "entities": [
+      {"entity": "title", "value": "wake up"},
+      {"entity": "time", "value": "8:30 AM"},
+      {"entity": "date", "value": "tomorrow"}
+    ]
+  },
+  {
+    "text": "Schedule time to work on the presentation tomorrow evening.",
+    "intent": "add_task",
+    "entities": [
+      {"entity": "title", "value": "work on the presentation"},
+      {"entity": "date", "value": "tomorrow"},
+      {"entity": "time", "value": "evening"}
+    ]
+  },
+  {
+    "text": "Create a reminder to buy groceries on Sunday morning.",
+    "intent": "add_task",
+    "entities": [
+      {"entity": "title", "value": "buy groceries"},
+      {"entity": "date", "value": "Sunday"},
+      {"entity": "time", "value": "morning"}
+    ]
+  },
+  {
+    "text": "Add a task to clean the house on Saturday afternoon.",
+    "intent": "add_task",
+    "entities": [
+      {"entity": "title", "value": "clean the house"},
+      {"entity": "date", "value": "Saturday"},
+      {"entity": "time", "value": "afternoon"}
+    ]
+  },
+  {
+    "text": "Plan a visit to the doctor on the 20th of June at 2 PM.",
+    "intent": "add_task",
+    "entities": [
+      {"entity": "title", "value": "visit to the doctor"},
+      {"entity": "date", "value": "20th of June"},
+      {"entity": "time", "value": "2 PM"}
+    ]
+  },
+  {
+    "text": "Add a reminder to water the plants on Tuesday morning.",
+    "intent": "add_task",
+    "entities": [
+      {"entity": "title", "value": "water the plants"},
+      {"entity": "date", "value": "Tuesday"},
+      {"entity": "time", "value": "morning"}
+    ]
+  },
+  {
+    "text": "Set a task to check emails tomorrow at 8 AM.",
+    "intent": "add_task",
+    "entities": [
+      {"entity": "title", "value": "check emails"},
+      {"entity": "date", "value": "tomorrow"},
+      {"entity": "time", "value": "8 AM"}
+    ]
+  },
+  {
+    "text": "Organize the team meeting on December 12th at 1 PM.",
+    "intent": "add_task",
+    "entities": [
+      {"entity": "title", "value": "Organize the team meeting"},
+      {"entity": "date", "value": "December 12th"},
+      {"entity": "time", "value": "1 PM"}
+    ]
+  },
+  {
+    "text": "Follow up with HR regarding job openings on March 15th at 11 AM.",
+    "intent": "add_task",
+    "entities": [
+      {"entity": "title", "value": "Follow up with HR regarding job openings"},
+      {"entity": "date", "value": "March 15th"},
+      {"entity": "time", "value": "11 AM"}
+    ]
+  },
+  {
+    "text": "Call Sarah to confirm dinner plans on Friday at 5 PM.",
+    "intent": "add_task",
+    "entities": [
+      {"entity": "title", "value": "Call Sarah to confirm dinner plans"},
+      {"entity": "date", "value": "Friday"},
+      {"entity": "time", "value": "5 PM"}
+    ]
+  },
+  {
+    "text": "Set a reminder to renew the gym membership on February 28th.",
+    "intent": "add_task",
+    "entities": [
+      {"entity": "title", "value": "renew the gym membership"},
+      {"entity": "date", "value": "February 28th"}
+    ]
+  },
+  {
+    "text": "Organize a family movie night on Saturday at 7 PM.",
+    "intent": "add_task",
+    "entities": [
+      {"entity": "title", "value": "Organize a family movie night"},
+      {"entity": "date", "value": "Saturday"},
+      {"entity": "time", "value": "7 PM"}
+    ]
+  },
+  {
+    "text": "Add a reminder to donate clothes to charity on December 1st.",
+    "intent": "add_task",
+    "entities": [
+      {"entity": "title", "value": "donate clothes to charity"},
+      {"entity": "date", "value": "December 1st"}
+    ]
+  },
+  {
+    "text": "Plan a quick check-in with the mentor on Tuesday at 3 PM.",
+    "intent": "add_task",
+    "entities": [
+      {"entity": "title", "value": "quick check-in with the mentor"},
+      {"entity": "date", "value": "Tuesday"},
+      {"entity": "time", "value": "3 PM"}
+    ]
+  },
+  {
+    "text": "Plan a team outing next Saturday afternoon.",
+    "intent": "add_task",
+    "entities": [
+      {"entity": "title", "value": "team outing"},
+      {"entity": "date", "value": "next Saturday"},
+      {"entity": "time", "value": "afternoon"}
+    ]
+  },
+  {
+    "text": "Schedule a one-on-one with my manager on April 22nd at 2 PM.",
+    "intent": "add_task",
+    "entities": [
+      {"entity": "title", "value": "one-on-one with my manager"},
+      {"entity": "date", "value": "April 22nd"},
+      {"entity": "time", "value": "2 PM"}
+    ]
+  },
+  {
+    "text": "Add a task to check the inventory this Friday morning.",
+    "intent": "add_task",
+    "entities": [
+      {"entity": "title", "value": "check the inventory"},
+      {"entity": "date", "value": "this Friday"},
+      {"entity": "time", "value": "morning"}
+    ]
+  },
+  {
+    "text": "Set up a reminder to join the webinar on March 9th at 11:30 AM.",
+    "intent": "add_task",
+    "entities": [
+      {"entity": "title", "value": "join the webinar"},
+      {"entity": "date", "value": "March 9th"},
+      {"entity": "time", "value": "11:30 AM"}
+    ]
+  },
+  {
+    "text": "Organize a weekly sync-up meeting every Monday at 10 AM.",
+    "intent": "add_task",
+    "entities": [
+      {"entity": "title", "value": "weekly sync-up meeting"},
+      {"entity": "date", "value": "every Monday"},
+      {"entity": "time", "value": "10 AM"}
+    ]
+  },
+  {
+    "text": "Schedule a task to review the quarterly report on June 15th at 3 PM.",
+    "intent": "add_task",
+    "entities": [
+      {"entity": "title", "value": "review the quarterly report"},
+      {"entity": "date", "value": "June 15th"},
+      {"entity": "time", "value": "3 PM"}
+    ]
+  },
+  {
+    "text": "Plan to prepare slides for the meeting next Wednesday evening.",
+    "intent": "add_task",
+    "entities": [
+      {"entity": "title", "value": "prepare slides for the meeting"},
+      {"entity": "date", "value": "next Wednesday"},
+      {"entity": "time", "value": "evening"}
+    ]
+  },
+  {
+    "text": "Set a reminder to visit the new cafe downtown next Sunday at 5 PM.",
+    "intent": "add_task",
+    "entities": [
+      {"entity": "title", "value": "visit the new cafe downtown"},
+      {"entity": "date", "value": "next Sunday"},
+      {"entity": "time", "value": "5 PM"}
+    ]
+  },
+  {
+    "text": "Add a task to clean up the storage room this weekend.",
+    "intent": "add_task",
+    "entities": [
+      {"entity": "title", "value": "clean up the storage room"},
+      {"entity": "date", "value": "this weekend"}
+    ]
+  },
+  {
+    "text": "Schedule a call with the new client tomorrow at 7 PM.",
+    "intent": "add_task",
+    "entities": [
+      {"entity": "title", "value": "call with the new client"},
+      {"entity": "date", "value": "tomorrow"},
+      {"entity": "time", "value": "7 PM"}
+    ]
+  },
+  {
+    "text": "Remind me to research holiday destinations next Friday evening.",
+    "intent": "add_task",
+    "entities": [
+      {"entity": "title", "value": "research holiday destinations"},
+      {"entity": "date", "value": "next Friday"},
+      {"entity": "time", "value": "evening"}
+    ]
+  },
+  {
+    "text": "Set a task to finalize the vendor agreement on April 1st at 10 AM.",
+    "intent": "add_task",
+    "entities": [
+      {"entity": "title", "value": "finalize the vendor agreement"},
+      {"entity": "date", "value": "April 1st"},
+      {"entity": "time", "value": "10 AM"}
+    ]
+  },
+  {
+    "text": "Plan a review session for the new project next Thursday at 9 AM.",
+    "intent": "add_task",
+    "entities": [
+      {"entity": "title", "value": "review session for the new project"},
+      {"entity": "date", "value": "next Thursday"},
+      {"entity": "time", "value": "9 AM"}
+    ]
+  },
+  {
+    "text": "Add a reminder to refill the water bottles on Wednesday morning.",
+    "intent": "add_task",
+    "entities": [
+      {"entity": "title", "value": "refill the water bottles"},
+      {"entity": "date", "value": "Wednesday"},
+      {"entity": "time", "value": "morning"}
+    ]
+  },
+  {
+    "text": "Set up a time to brainstorm marketing ideas next Tuesday at noon.",
+    "intent": "add_task",
+    "entities": [
+      {"entity": "title", "value": "brainstorm marketing ideas"},
+      {"entity": "date", "value": "next Tuesday"},
+      {"entity": "time", "value": "noon"}
+    ]
+  },
+    {
+      "text": "Schedule a call with the manager on January 10th at 3 PM.",
+      "intent": "add_task",
+      "entities": [
+        {"entity": "title", "value": "call with the manager"},
+        {"entity": "date", "value": "January 10th"},
+        {"entity": "time", "value": "3 PM"}
+      ]
+    },
+    {
+      "text": "Plan a dinner with friends next Saturday at 8 PM.",
+      "intent": "add_task",
+      "entities": [
+        {"entity": "title", "value": "dinner with friends"},
+        {"entity": "date", "value": "next Saturday"},
+        {"entity": "time", "value": "8 PM"}
+      ]
+    },
+    {
+      "text": "Set a task to submit the budget report by Monday evening.",
+      "intent": "add_task",
+      "entities": [
+        {"entity": "title", "value": "submit the budget report"},
+        {"entity": "date", "value": "Monday"},
+        {"entity": "time", "value": "evening"}
+      ]
+    },
+    {
+      "text": "Remind me to renew my passport on April 15th.",
+      "intent": "add_task",
+      "entities": [
+        {"entity": "title", "value": "renew my passport"},
+        {"entity": "date", "value": "April 15th"}
+      ]
+    },
+    {
+      "text": "Add a task to clean the garage this weekend.",
+      "intent": "add_task",
+      "entities": [
+        {"entity": "title", "value": "clean the garage"},
+        {"entity": "date", "value": "this weekend"}
+      ]
+    },
+    {
+      "text": "Plan a workout session tomorrow at 6 AM.",
+      "intent": "add_task",
+      "entities": [
+        {"entity": "title", "value": "workout session"},
+        {"entity": "date", "value": "tomorrow"},
+        {"entity": "time", "value": "6 AM"}
+      ]
+    },
+    {
+      "text": "Remind me to refill the car fuel on Tuesday morning.",
+      "intent": "add_task",
+      "entities": [
+        {"entity": "title", "value": "refill the car fuel"},
+        {"entity": "date", "value": "Tuesday"},
+        {"entity": "time", "value": "morning"}
+      ]
+    },
+    {
+      "text": "Organize a presentation for the new project on March 1st.",
+      "intent": "add_task",
+      "entities": [
+        {"entity": "title", "value": "presentation for the new project"},
+        {"entity": "date", "value": "March 1st"}
+      ]
+    },
+    {
+      "text": "Schedule a check-up appointment with the doctor on July 5th at 11 AM.",
+      "intent": "add_task",
+      "entities": [
+        {"entity": "title", "value": "check-up appointment with the doctor"},
+        {"entity": "date", "value": "July 5th"},
+        {"entity": "time", "value": "11 AM"}
+      ]
+    },
+    {
+      "text": "Add a reminder to pack for the trip by Friday night.",
+      "intent": "add_task",
+      "entities": [
+        {"entity": "title", "value": "pack for the trip"},
+        {"entity": "date", "value": "Friday"},
+        {"entity": "time", "value": "night"}
+      ]
+    },
+    {
+      "text": "Remind me to bake a cake on Sunday afternoon.",
+      "intent": "add_task",
+      "entities": [
+        {"entity": "title", "value": "bake a cake"},
+        {"entity": "date", "value": "Sunday"},
+        {"entity": "time", "value": "afternoon"}
+      ]
+    },
+    {
+      "text": "Prepare a budget review presentation on September 2nd at 9 AM.",
+      "intent": "add_task",
+      "entities": [
+        {"entity": "title", "value": "budget review presentation"},
+        {"entity": "date", "value": "September 2nd"},
+        {"entity": "time", "value": "9 AM"}
+      ]
+    },
+    {
+      "text": "Remind me to visit grandma next Thursday morning.",
+      "intent": "add_task",
+      "entities": [
+        {"entity": "title", "value": "visit grandma"},
+        {"entity": "date", "value": "next Thursday"},
+        {"entity": "time", "value": "morning"}
+      ]
+    },
+    {
+      "text": "Plan a team outing on February 20th at noon.",
+      "intent": "add_task",
+      "entities": [
+        {"entity": "title", "value": "team outing"},
+        {"entity": "date", "value": "February 20th"},
+        {"entity": "time", "value": "noon"}
+      ]
+    },
+    {
+      "text": "Schedule a lunch with clients on August 10th at 1 PM.",
+      "intent": "add_task",
+      "entities": [
+        {"entity": "title", "value": "lunch with clients"},
+        {"entity": "date", "value": "August 10th"},
+        {"entity": "time", "value": "1 PM"}
+      ]
+    },
+    {
+      "text": "Plan a trip to the countryside on October 15th.",
+      "intent": "add_task",
+      "entities": [
+        {"entity": "title", "value": "trip to the countryside"},
+        {"entity": "date", "value": "October 15th"}
+      ]
+    },
+    {
+      "text": "Schedule a visit to the art gallery on Saturday at 4 PM.",
+      "intent": "add_task",
+      "entities": [
+        {"entity": "title", "value": "visit to the art gallery"},
+        {"entity": "date", "value": "Saturday"},
+        {"entity": "time", "value": "4 PM"}
+      ]
+    },
+    {
+      "text": "Add a task to replace the light bulb tomorrow evening.",
+      "intent": "add_task",
+      "entities": [
+        {"entity": "title", "value": "replace the light bulb"},
+        {"entity": "date", "value": "tomorrow"},
+        {"entity": "time", "value": "evening"}
+      ]
+    },
+    {
+      "text": "Remind me to cancel the subscription by the end of the week.",
+      "intent": "add_task",
+      "entities": [
+        {"entity": "title", "value": "cancel the subscription"},
+        {"entity": "date", "value": "end of the week"}
+      ]
+    },
+    {
+      "text": "Plan a grocery shopping trip on Monday morning.",
+      "intent": "add_task",
+      "entities": [
+        {"entity": "title", "value": "grocery shopping trip"},
+        {"entity": "date", "value": "Monday"},
+        {"entity": "time", "value": "morning"}
+      ]
+    },
+    {
+      "text": "Schedule an interview preparation session tomorrow at 5 PM.",
+      "intent": "add_task",
+      "entities": [
+        {"entity": "title", "value": "interview preparation session"},
+        {"entity": "date", "value": "tomorrow"},
+        {"entity": "time", "value": "5 PM"}
+      ]
+    },
+    {
+      "text": "Remind me to organize the office files this Friday afternoon.",
+      "intent": "add_task",
+      "entities": [
+        {"entity": "title", "value": "organize the office files"},
+        {"entity": "date", "value": "Friday"},
+        {"entity": "time", "value": "afternoon"}
+      ]
+    },
+    {
+      "text": "Set a reminder to backup my laptop data by Sunday evening.",
+      "intent": "add_task",
+      "entities": [
+        {"entity": "title", "value": "backup my laptop data"},
+        {"entity": "date", "value": "Sunday"},
+        {"entity": "time", "value": "evening"}
+      ]
+    },
+    {
+      "text": "Schedule a feedback call with the team next Tuesday.",
+      "intent": "add_task",
+      "entities": [
+        {"entity": "title", "value": "feedback call with the team"},
+        {"entity": "date", "value": "next Tuesday"}
+      ]
+    },
+    {
+      "text": "Plan to organize a birthday party on June 18th at 7 PM.",
+      "intent": "add_task",
+      "entities": [
+        {"entity": "title", "value": "birthday party"},
+        {"entity": "date", "value": "June 18th"},
+        {"entity": "time", "value": "7 PM"}
+      ]
+    }  
+],
+"add_to_calender": [
+    {
+      "text": "Mark the afternoon of April 22nd for a workshop from 1 PM to 4 PM.",
+      "intent": "add_to_calender",
+      "entities": [
+        {"entity": "title", "value": "workshop"},
+        {"entity": "date", "value": "April 22nd"},
+        {"entity": "time_duration", "value": "1 PM to 4 PM"}
+      ]
+    },
+    {
+      "text": "Add a flight schedule to my calendar on May 15th from 6 AM to 8 AM.",
+      "intent": "add_to_calender",
+      "entities": [
+        {"entity": "title", "value": "flight schedule"},
+        {"entity": "date", "value": "May 15th"},
+        {"entity": "time_duration", "value": "6 AM to 8 AM"}
+      ]
+    },
+    {
+      "text": "Reserve every Friday evening for a movie night at 7 PM for 3 hours.",
+      "intent": "add_to_calender",
+      "entities": [
+        {"entity": "title", "value": "movie night"},
+        {"entity": "date", "value": "every Friday"},
+        {"entity": "time_duration", "value": "7 PM to 10 PM"}
+      ]
+    },
+    {
+      "text": "Add a reminder for the annual performance review on July 1st from 10 AM to 12 PM.",
+      "intent": "add_to_calender",
+      "entities": [
+        {"entity": "title", "value": "annual performance review"},
+        {"entity": "date", "value": "July 1st"},
+        {"entity": "time_duration", "value": "10 AM to 12 PM"}
+      ]
+    },
+    {
+      "text": "Schedule a morning yoga session on January 20th from 6 AM to 7 AM.",
+      "intent": "add_to_calender",
+      "entities": [
+        {"entity": "title", "value": "morning yoga session"},
+        {"entity": "date", "value": "January 20th"},
+        {"entity": "time_duration", "value": "6 AM to 7 AM"}
+      ]
+    },
+    {
+      "text": "Plan a weekend getaway starting on March 3rd for the entire day.",
+      "intent": "add_to_calender",
+      "entities": [
+        {"entity": "title", "value": "weekend getaway"},
+        {"entity": "date", "value": "March 3rd"},
+        {"entity": "time_duration", "value": "all-day"}
+      ]
+    },
+    {
+      "text": "Mark my calendar for a parent-teacher conference next Thursday at 5 PM for 1 hour.",
+      "intent": "add_to_calender",
+      "entities": [
+        {"entity": "title", "value": "parent-teacher conference"},
+        {"entity": "date", "value": "next Thursday"},
+        {"entity": "time_duration", "value": "5 PM to 6 PM"}
+      ]
+    },
+    {
+      "text": "Block time for a charity event on September 5th from 10 AM to 3 PM.",
+      "intent": "add_to_calender",
+      "entities": [
+        {"entity": "title", "value": "charity event"},
+        {"entity": "date", "value": "September 5th"},
+        {"entity": "time_duration", "value": "10 AM to 3 PM"}
+      ]
+    },
+    {
+      "text": "Schedule time for reading every Sunday evening from 6 PM to 8 PM.",
+      "intent": "add_to_calender",
+      "entities": [
+        {"entity": "title", "value": "reading time"},
+        {"entity": "date", "value": "every Sunday"},
+        {"entity": "time_duration", "value": "6 PM to 8 PM"}
+      ]
+    },
+    {
+      "text": "Plan a dinner with college friends on February 10th from 8 PM to 11 PM.",
+      "intent": "add_to_calender",
+      "entities": [
+        {"entity": "title", "value": "dinner with college friends"},
+        {"entity": "date", "value": "February 10th"},
+        {"entity": "time_duration", "value": "8 PM to 11 PM"}
+      ]
+    },
+    {
+      "text": "Reserve a coffee date with Emma on December 3rd at 4 PM for an hour.",
+      "intent": "add_to_calender",
+      "entities": [
+        {"entity": "title", "value": "coffee date with Emma"},
+        {"entity": "date", "value": "December 3rd"},
+        {"entity": "time_duration", "value": "4 PM to 5 PM"}
+      ]
+    },
+    {
+      "text": "Set up a reminder to pay bills every month on the 1st at 10 AM.",
+      "intent": "add_to_calender",
+      "entities": [
+        {"entity": "title", "value": "pay bills"},
+        {"entity": "date", "value": "every month on the 1st"},
+        {"entity": "time_duration", "value": "10 AM"}
+      ]
+    },
+    {
+      "text": "Add a wedding anniversary reminder on June 15th for the entire day.",
+      "intent": "add_to_calender",
+      "entities": [
+        {"entity": "title", "value": "wedding anniversary"},
+        {"entity": "date", "value": "June 15th"},
+        {"entity": "time_duration", "value": "all-day"}
+      ]
+    },
+    {
+      "text": "Plan a business presentation on October 11th from 9 AM to 11 AM.",
+      "intent": "add_to_calender",
+      "entities": [
+        {"entity": "title", "value": "business presentation"},
+        {"entity": "date", "value": "October 11th"},
+        {"entity": "time_duration", "value": "9 AM to 11 AM"}
+      ]
+    },
+    {
+      "text": "Mark a day for spring cleaning on March 21st for the entire day.",
+      "intent": "add_to_calender",
+      "entities": [
+        {"entity": "title", "value": "spring cleaning"},
+        {"entity": "date", "value": "March 21st"},
+        {"entity": "time_duration", "value": "all-day"}
+      ]
+    },
+    {
+      "text": "Schedule a training session next Wednesday from 1 PM to 3 PM.",
+      "intent": "add_to_calender",
+      "entities": [
+        {"entity": "title", "value": "training session"},
+        {"entity": "date", "value": "next Wednesday"},
+        {"entity": "time_duration", "value": "1 PM to 3 PM"}
+      ]
+    },
+    {
+      "text": "Add a personal project review next Saturday morning at 10 AM for 2 hours.",
+      "intent": "add_to_calender",
+      "entities": [
+        {"entity": "title", "value": "personal project review"},
+        {"entity": "date", "value": "next Saturday"},
+        {"entity": "time_duration", "value": "10 AM to 12 PM"}
+      ]
+    },
+    {
+      "text": "Reserve every Monday at 4 PM for a weekly reflection session.",
+      "intent": "add_to_calender",
+      "entities": [
+        {"entity": "title", "value": "weekly reflection session"},
+        {"entity": "date", "value": "every Monday"},
+        {"entity": "time_duration", "value": "4 PM"}
+      ]
+    },
+    {
+      "text": "Plan a team outing on July 20th from 2 PM to 8 PM.",
+      "intent": "add_to_calender",
+      "entities": [
+        {"entity": "title", "value": "team outing"},
+        {"entity": "date", "value": "July 20th"},
+        {"entity": "time_duration", "value": "2 PM to 8 PM"}
+      ]
+    },
+    {
+      "text": "Set up a charity run event on November 10th from 7 AM to 12 PM.",
+      "intent": "add_to_calender",
+      "entities": [
+        {"entity": "title", "value": "charity run event"},
+        {"entity": "date", "value": "November 10th"},
+        {"entity": "time_duration", "value": "7 AM to 12 PM"}
+      ]
+    },
+    {
+        "text": "Block off 3 PM to 5 PM tomorrow for focused work.",
+        "intent": "add_to_calender",
+        "entities": [
+          {"entity": "title", "value": "focused work session"},
+          {"entity": "date", "value": "tomorrow"},
+          {"entity": "time_duration", "value": "3 PM to 5 PM"}
+        ]
+      },
+      {
+        "text": "Schedule some time for a lunch break between 12 PM and 1 PM.",
+        "intent": "add_to_calender",
+        "entities": [
+          {"entity": "title", "value": "lunch break"},
+          {"entity": "date", "value": "today"},
+          {"entity": "time_duration", "value": "12 PM to 1 PM"}
+        ]
+      },
+      {
+        "text": "Wish me on my birthday every year on the 24th of November.",
+        "intent": "add_to_calender",
+        "entities": [
+          {"entity": "title", "value": "birthday reminder"},
+          {"entity": "date", "value": "24th of November"},
+          {"entity": "time_duration", "value": "all-day"}
+        ]
+      },
+      {
+        "text": "Set a meeting with the product team from 2 PM to 4 PM next Tuesday.",
+        "intent": "add_to_calender",
+        "entities": [
+          {"entity": "title", "value": "meeting with the product team"},
+          {"entity": "date", "value": "next Tuesday"},
+          {"entity": "time_duration", "value": "2 PM to 4 PM"}
+        ]
+      },
+      {
+        "text": "Reserve 9 AM to 11 AM tomorrow for a brainstorming session.",
+        "intent": "add_to_calender",
+        "entities": [
+          {"entity": "title", "value": "brainstorming session"},
+          {"entity": "date", "value": "tomorrow"},
+          {"entity": "time_duration", "value": "9 AM to 11 AM"}
+        ]
+      },
+      {
+        "text": "Add a reminder to celebrate New Year’s Eve on December 31st all day.",
+        "intent": "add_to_calender",
+        "entities": [
+          {"entity": "title", "value": "New Year’s Eve celebration"},
+          {"entity": "date", "value": "December 31st"},
+          {"entity": "time_duration", "value": "all-day"}
+        ]
+      },
+      {
+        "text": "Block out the entire morning on Friday for a client meeting from 9 AM to 12 PM.",
+        "intent": "add_to_calender",
+        "entities": [
+          {"entity": "title", "value": "client meeting"},
+          {"entity": "date", "value": "Friday"},
+          {"entity": "time_duration", "value": "9 AM to 12 PM"}
+        ]
+      },
+      {
+        "text": "Plan a holiday party on December 20th from 7 PM to 11 PM.",
+        "intent": "add_to_calender",
+        "entities": [
+          {"entity": "title", "value": "holiday party"},
+          {"entity": "date", "value": "December 20th"},
+          {"entity": "time_duration", "value": "7 PM to 11 PM"}
+        ]
+      },
+      {
+        "text": "Add a gym session to my calendar for every Wednesday at 6 PM.",
+        "intent": "add_to_calender",
+        "entities": [
+          {"entity": "title", "value": "gym session"},
+          {"entity": "date", "value": "every Wednesday"},
+          {"entity": "time_duration", "value": "6 PM"}
+        ]
+      },
+      {
+        "text": "Block out next Saturday evening for a family dinner from 7 PM to 10 PM.",
+        "intent": "add_to_calender",
+        "entities": [
+          {"entity": "title", "value": "family dinner"},
+          {"entity": "date", "value": "next Saturday"},
+          {"entity": "time_duration", "value": "7 PM to 10 PM"}
+        ]
+      },
+      {
+        "text": "Schedule a doctor's appointment on March 15th from 3 PM to 4 PM.",
+        "intent": "add_to_calender",
+        "entities": [
+          {"entity": "title", "value": "doctor's appointment"},
+          {"entity": "date", "value": "March 15th"},
+          {"entity": "time_duration", "value": "3 PM to 4 PM"}
+        ]
+      },
+      {
+        "text": "Add a monthly team catch-up every first Monday of the month from 2 PM to 3 PM.",
+        "intent": "add_to_calender",
+        "entities": [
+          {"entity": "title", "value": "monthly team catch-up"},
+          {"entity": "date", "value": "every first Monday of the month"},
+          {"entity": "time_duration", "value": "2 PM to 3 PM"}
+        ]
+      },
+      {
+        "text": "Mark my calendar for an all-day retreat on August 18th.",
+        "intent": "add_to_calender",
+        "entities": [
+          {"entity": "title", "value": "all-day retreat"},
+          {"entity": "date", "value": "August 18th"},
+          {"entity": "time_duration", "value": "all-day"}
+        ]
+      },
+      {
+        "text": "Plan a virtual coffee chat with Sarah on Friday at 11 AM for 30 minutes.",
+        "intent": "add_to_calender",
+        "entities": [
+          {"entity": "title", "value": "virtual coffee chat with Sarah"},
+          {"entity": "date", "value": "Friday"},
+          {"entity": "time_duration", "value": "11 AM to 11:30 AM"}
+        ]
+      },
+      {
+        "text": "Add a music festival to my calendar on July 5th from 3 PM to 9 PM.",
+        "intent": "add_to_calender",
+        "entities": [
+          {"entity": "title", "value": "music festival"},
+          {"entity": "date", "value": "July 5th"},
+          {"entity": "time_duration", "value": "3 PM to 9 PM"}
+        ]
+      },
+      {
+        "text": "Block out time to review quarterly reports on the 10th of next month from 10 AM to 12 PM.",
+        "intent": "add_to_calender",
+        "entities": [
+          {"entity": "title", "value": "review quarterly reports"},
+          {"entity": "date", "value": "10th of next month"},
+          {"entity": "time_duration", "value": "10 AM to 12 PM"}
+        ]
+      },
+      {
+        "text": "Set up time for a one-on-one check-in with my manager tomorrow at 3 PM for an hour.",
+        "intent": "add_to_calender",
+        "entities": [
+          {"entity": "title", "value": "one-on-one check-in with my manager"},
+          {"entity": "date", "value": "tomorrow"},
+          {"entity": "time_duration", "value": "3 PM to 4 PM"}
+        ]
+      },
+      {
+        "text": "Add an all-day conference to my calendar on November 2nd.",
+        "intent": "add_to_calender",
+        "entities": [
+          {"entity": "title", "value": "all-day conference"},
+          {"entity": "date", "value": "November 2nd"},
+          {"entity": "time_duration", "value": "all-day"}
+        ]
+      },
+      {
+        "text": "Plan a hike next Sunday morning from 7 AM to 11 AM.",
+        "intent": "add_to_calender",
+        "entities": [
+          {"entity": "title", "value": "hike"},
+          {"entity": "date", "value": "next Sunday"},
+          {"entity": "time_duration", "value": "7 AM to 11 AM"}
+        ]
+      },
+      {
+        "text": "Schedule a virtual conference call on August 18th from 3 PM to 5 PM.",
+        "intent": "add_to_calender",
+        "entities": [
+          {"entity": "title", "value": "virtual conference call"},
+          {"entity": "date", "value": "August 18th"},
+          {"entity": "time_duration", "value": "3 PM to 5 PM"}
+        ]
+      },
+      {
+        "text": "Plan a fitness training session every Saturday morning at 7 AM for an hour.",
+        "intent": "add_to_calender",
+        "entities": [
+          {"entity": "title", "value": "fitness training session"},
+          {"entity": "date", "value": "every Saturday"},
+          {"entity": "time_duration", "value": "7 AM to 8 AM"}
+        ]
+      },
+      {
+        "text": "Block the evening of May 25th for a birthday party from 6 PM to 10 PM.",
+        "intent": "add_to_calender",
+        "entities": [
+          {"entity": "title", "value": "birthday party"},
+          {"entity": "date", "value": "May 25th"},
+          {"entity": "time_duration", "value": "6 PM to 10 PM"}
+        ]
+      },
+      {
+        "text": "Reserve time for a webinar on June 12th from 4 PM to 5:30 PM.",
+        "intent": "add_to_calender",
+        "entities": [
+          {"entity": "title", "value": "webinar"},
+          {"entity": "date", "value": "June 12th"},
+          {"entity": "time_duration", "value": "4 PM to 5:30 PM"}
+        ]
+      },
+      {
+        "text": "Schedule a dentist appointment on April 4th at 9 AM for 30 minutes.",
+        "intent": "add_to_calender",
+        "entities": [
+          {"entity": "title", "value": "dentist appointment"},
+          {"entity": "date", "value": "April 4th"},
+          {"entity": "time_duration", "value": "9 AM to 9:30 AM"}
+        ]
+      },
+      {
+        "text": "Add a family picnic plan on March 19th from 10 AM to 4 PM.",
+        "intent": "add_to_calender",
+        "entities": [
+          {"entity": "title", "value": "family picnic"},
+          {"entity": "date", "value": "March 19th"},
+          {"entity": "time_duration", "value": "10 AM to 4 PM"}
+        ]
+      },
+      {
+        "text": "Set up a follow-up meeting with the client on February 7th at 11 AM for 45 minutes.",
+        "intent": "add_to_calender",
+        "entities": [
+          {"entity": "title", "value": "client follow-up meeting"},
+          {"entity": "date", "value": "February 7th"},
+          {"entity": "time_duration", "value": "11 AM to 11:45 AM"}
+        ]
+      },
+      {
+        "text": "Mark December 15th for an office Christmas party from 7 PM to 11 PM.",
+        "intent": "add_to_calender",
+        "entities": [
+          {"entity": "title", "value": "office Christmas party"},
+          {"entity": "date", "value": "December 15th"},
+          {"entity": "time_duration", "value": "7 PM to 11 PM"}
+        ]
+      },
+      {
+        "text": "Plan a brainstorming session with the team on October 5th from 2 PM to 4 PM.",
+        "intent": "add_to_calender",
+        "entities": [
+          {"entity": "title", "value": "team brainstorming session"},
+          {"entity": "date", "value": "October 5th"},
+          {"entity": "time_duration", "value": "2 PM to 4 PM"}
+        ]
+      },
+      {
+        "text": "Block next Tuesday morning for a car service appointment at 9 AM for 2 hours.",
+        "intent": "add_to_calender",
+        "entities": [
+          {"entity": "title", "value": "car service appointment"},
+          {"entity": "date", "value": "next Tuesday"},
+          {"entity": "time_duration", "value": "9 AM to 11 AM"}
+        ]
+      }
+  ],
+  "add_recurring_task_to_calendar": [
+    {
+      "text": "Set up a daily stand-up meeting at 10 AM, Monday to Friday.",
+      "intent": "add_recurring_task_to_calendar",
+      "entities": [
+        {"entity": "title", "value": "daily stand-up meeting"},
+        {"entity": "from_date", "value": "Monday"},
+        {"entity": "end_date", "value": "Friday"},
+        {"entity": "time_duration", "value": "10 AM"}
+      ]
+    },
+    {
+      "text": "Schedule yoga class every Saturday at 8 AM.",
+      "intent": "add_recurring_task_to_calendar",
+      "entities": [
+        {"entity": "title", "value": "yoga class"},
+        {"entity": "from_date", "value": "every Saturday"},
+        {"entity": "end_date", "value": "none"},
+        {"entity": "time_duration", "value": "8 AM"}
+      ]
+    },
+    {
+      "text": "Plan a coding session every Tuesday and Thursday at 7 PM.",
+      "intent": "add_recurring_task_to_calendar",
+      "entities": [
+        {"entity": "title", "value": "coding session"},
+        {"entity": "from_date", "value": "Tuesday"},
+        {"entity": "end_date", "value": "Thursday"},
+        {"entity": "time_duration", "value": "7 PM to 8 PM"}
+      ]
+    },
+    {
+      "text": "Add a workout session every Monday, Wednesday, and Friday at 6 AM.",
+      "intent": "add_recurring_task_to_calendar",
+      "entities": [
+        {"entity": "title", "value": "workout session"},
+        {"entity": "from_date", "value": "Monday"},
+        {"entity": "end_date", "value": "Friday"},
+        {"entity": "time_duration", "value": "6 AM to 7 AM"}
+      ]
+    },
+    {
+      "text": "Plan a church service every Sunday at 9 AM.",
+      "intent": "add_recurring_task_to_calendar",
+      "entities": [
+        {"entity": "title", "value": "church service"},
+        {"entity": "from_date", "value": "every Sunday"},
+        {"entity": "end_date", "value": "none"},
+        {"entity": "time_duration", "value": "9 AM to 10 AM"}
+      ]
+    },
+    {
+      "text": "Add a monthly book club meeting on the 1st Saturday of each month at 4 PM.",
+      "intent": "add_recurring_task_to_calendar",
+      "entities": [
+        {"entity": "title", "value": "book club meeting"},
+        {"entity": "from_date", "value": "1st Saturday of each month"},
+        {"entity": "end_date", "value": "none"},
+        {"entity": "time_duration", "value": "4 PM to 6 PM"}
+      ]
+    },
+    {
+      "text": "Schedule a performance review on the 15th of every month at 3 PM.",
+      "intent": "add_recurring_task_to_calendar",
+      "entities": [
+        {"entity": "title", "value": "performance review"},
+        {"entity": "from_date", "value": "15th of each month"},
+        {"entity": "end_date", "value": "none"},
+        {"entity": "time_duration", "value": "3 PM to 4 PM"}
+      ]
+    },
+    {
+      "text": "Block off time for gardening every Saturday morning from 7 AM to 9 AM.",
+      "intent": "add_recurring_task_to_calendar",
+      "entities": [
+        {"entity": "title", "value": "gardening session"},
+        {"entity": "from_date", "value": "every Saturday"},
+        {"entity": "end_date", "value": "none"},
+        {"entity": "time_duration", "value": "7 AM to 9 AM"}
+      ]
+    },
+    {
+      "text": "Set up a recurring weekly call with parents every Sunday evening at 6 PM.",
+      "intent": "add_recurring_task_to_calendar",
+      "entities": [
+        {"entity": "title", "value": "weekly call with parents"},
+        {"entity": "from_date", "value": "every Sunday"},
+        {"entity": "end_date", "value": "none"},
+        {"entity": "time_duration", "value": "6 PM to 7 PM"}
+      ]
+    },
+    {
+      "text": "Schedule a meditation session every weekday morning at 6:30 AM.",
+      "intent": "add_recurring_task_to_calendar",
+      "entities": [
+        {"entity": "title", "value": "meditation session"},
+        {"entity": "from_date", "value": "Monday"},
+        {"entity": "end_date", "value": "Friday"},
+        {"entity": "time_duration", "value": "6:30 AM to 7:00 AM"}
+      ]
+    },
+    {
+      "text": "Add a bi-weekly chess club meeting every other Thursday at 5 PM.",
+      "intent": "add_recurring_task_to_calendar",
+      "entities": [
+        {"entity": "title", "value": "chess club meeting"},
+        {"entity": "from_date", "value": "Thursday"},
+        {"entity": "end_date", "value": "none"},
+        {"entity": "time_duration", "value": "5 PM to 6 PM"}
+      ]
+    },
+    {
+      "text": "Set up a monthly client call on the last Friday of each month at 2 PM.",
+      "intent": "add_recurring_task_to_calendar",
+      "entities": [
+        {"entity": "title", "value": "client call"},
+        {"entity": "from_date", "value": "last Friday of each month"},
+        {"entity": "end_date", "value": "none"},
+        {"entity": "time_duration", "value": "2 PM to 3 PM"}
+      ]
+    },
+    {
+      "text": "Add a bi-monthly cleaning session every first and third Saturday at 10 AM.",
+      "intent": "add_recurring_task_to_calendar",
+      "entities": [
+        {"entity": "title", "value": "cleaning session"},
+        {"entity": "from_date", "value": "first Saturday"},
+        {"entity": "end_date", "value": "third Saturday"},
+        {"entity": "time_duration", "value": "10 AM to 12 PM"}
+      ]
+    },
+    {
+      "text": "Schedule a recurring meeting with the mentor every Friday morning at 8 AM.",
+      "intent": "add_recurring_task_to_calendar",
+      "entities": [
+        {"entity": "title", "value": "mentor meeting"},
+        {"entity": "from_date", "value": "every Friday"},
+        {"entity": "end_date", "value": "none"},
+        {"entity": "time_duration", "value": "8 AM to 9 AM"}
+      ]
+    },
+    {
+      "text": "Plan a family outing every second Saturday of the month at 3 PM.",
+      "intent": "add_recurring_task_to_calendar",
+      "entities": [
+        {"entity": "title", "value": "family outing"},
+        {"entity": "from_date", "value": "second Saturday of each month"},
+        {"entity": "end_date", "value": "none"},
+        {"entity": "time_duration", "value": "3 PM to 7 PM"}
+      ]
+    },
+    {
+        "text": "Set up a weekly brainstorming session every Wednesday at 2 PM.",
+        "intent": "add_recurring_task_to_calendar",
+        "entities": [
+          {"entity": "title", "value": "brainstorming session"},
+          {"entity": "from_date", "value": "every Wednesday"},
+          {"entity": "end_date", "value": "none"},
+          {"entity": "time_duration", "value": "2 PM to 3 PM"}
+        ]
+      },
+      {
+        "text": "Add a recurring doctor's appointment on the 2nd Tuesday of every month at 11 AM.",
+        "intent": "add_recurring_task_to_calendar",
+        "entities": [
+          {"entity": "title", "value": "doctor's appointment"},
+          {"entity": "from_date", "value": "2nd Tuesday of each month"},
+          {"entity": "end_date", "value": "none"},
+          {"entity": "time_duration", "value": "11 AM to 12 PM"}
+        ]
+      },
+      {
+        "text": "Schedule team lunch on the first Friday of every month at 1 PM.",
+        "intent": "add_recurring_task_to_calendar",
+        "entities": [
+          {"entity": "title", "value": "team lunch"},
+          {"entity": "from_date", "value": "first Friday of each month"},
+          {"entity": "end_date", "value": "none"},
+          {"entity": "time_duration", "value": "1 PM to 2 PM"}
+        ]
+      },
+      {
+        "text": "Plan a recurring board game night every second Friday at 7 PM.",
+        "intent": "add_recurring_task_to_calendar",
+        "entities": [
+          {"entity": "title", "value": "board game night"},
+          {"entity": "from_date", "value": "second Friday"},
+          {"entity": "end_date", "value": "none"},
+          {"entity": "time_duration", "value": "7 PM to 10 PM"}
+        ]
+      },
+      {
+        "text": "Set up a parent-teacher conference on the last Thursday of each quarter at 4 PM.",
+        "intent": "add_recurring_task_to_calendar",
+        "entities": [
+          {"entity": "title", "value": "parent-teacher conference"},
+          {"entity": "from_date", "value": "last Thursday of each quarter"},
+          {"entity": "end_date", "value": "none"},
+          {"entity": "time_duration", "value": "4 PM to 6 PM"}
+        ]
+      },
+      {
+        "text": "Add a recurring piano lesson every Tuesday evening at 5:30 PM.",
+        "intent": "add_recurring_task_to_calendar",
+        "entities": [
+          {"entity": "title", "value": "piano lesson"},
+          {"entity": "from_date", "value": "every Tuesday"},
+          {"entity": "end_date", "value": "none"},
+          {"entity": "time_duration", "value": "5:30 PM to 6:30 PM"}
+        ]
+      },
+      {
+        "text": "Schedule a company-wide meeting every first Monday of the month at 10 AM.",
+        "intent": "add_recurring_task_to_calendar",
+        "entities": [
+          {"entity": "title", "value": "company-wide meeting"},
+          {"entity": "from_date", "value": "first Monday of each month"},
+          {"entity": "end_date", "value": "none"},
+          {"entity": "time_duration", "value": "10 AM to 11:30 AM"}
+        ]
+      },
+      {
+        "text": "Add a dance practice session every Friday night at 8 PM.",
+        "intent": "add_recurring_task_to_calendar",
+        "entities": [
+          {"entity": "title", "value": "dance practice session"},
+          {"entity": "from_date", "value": "every Friday"},
+          {"entity": "end_date", "value": "none"},
+          {"entity": "time_duration", "value": "8 PM to 9 PM"}
+        ]
+      },
+      {
+        "text": "Plan a recurring evening walk every day at 6 PM.",
+        "intent": "add_recurring_task_to_calendar",
+        "entities": [
+          {"entity": "title", "value": "evening walk"},
+          {"entity": "from_date", "value": "every day"},
+          {"entity": "end_date", "value": "none"},
+          {"entity": "time_duration", "value": "6 PM to 7 PM"}
+        ]
+      },
+      {
+        "text": "Set up a recurring date night every first Saturday at 7 PM.",
+        "intent": "add_recurring_task_to_calendar",
+        "entities": [
+          {"entity": "title", "value": "date night"},
+          {"entity": "from_date", "value": "first Saturday"},
+          {"entity": "end_date", "value": "none"},
+          {"entity": "time_duration", "value": "7 PM to 10 PM"}
+        ]
+      },
+      {
+        "text": "Add a recurring tutoring session every Monday and Wednesday at 4 PM.",
+        "intent": "add_recurring_task_to_calendar",
+        "entities": [
+          {"entity": "title", "value": "tutoring session"},
+          {"entity": "from_date", "value": "Monday"},
+          {"entity": "end_date", "value": "Wednesday"},
+          {"entity": "time_duration", "value": "4 PM to 5:30 PM"}
+        ]
+      },
+      {
+        "text": "Schedule weekly cooking lessons every Sunday at 11 AM.",
+        "intent": "add_recurring_task_to_calendar",
+        "entities": [
+          {"entity": "title", "value": "cooking lessons"},
+          {"entity": "from_date", "value": "every Sunday"},
+          {"entity": "end_date", "value": "none"},
+          {"entity": "time_duration", "value": "11 AM to 1 PM"}
+        ]
+      },
+      {
+        "text": "Plan a recurring movie night every Friday at 9 PM.",
+        "intent": "add_recurring_task_to_calendar",
+        "entities": [
+          {"entity": "title", "value": "movie night"},
+          {"entity": "from_date", "value": "every Friday"},
+          {"entity": "end_date", "value": "none"},
+          {"entity": "time_duration", "value": "9 PM to 11 PM"}
+        ]
+      },
+      {
+        "text": "Set up monthly feedback meetings on the last Wednesday at 2 PM.",
+        "intent": "add_recurring_task_to_calendar",
+        "entities": [
+          {"entity": "title", "value": "feedback meetings"},
+          {"entity": "from_date", "value": "last Wednesday of each month"},
+          {"entity": "end_date", "value": "none"},
+          {"entity": "time_duration", "value": "2 PM to 3 PM"}
+        ]
+      },
+      {
+        "text": "Add weekly mentoring calls every Tuesday and Thursday at 3 PM.",
+        "intent": "add_recurring_task_to_calendar",
+        "entities": [
+          {"entity": "title", "value": "mentoring calls"},
+          {"entity": "from_date", "value": "Tuesday"},
+          {"entity": "end_date", "value": "Thursday"},
+          {"entity": "time_duration", "value": "3 PM to 4 PM"}
+        ]
+      },
+      {
+        "text": "Schedule weekly swimming practice every Wednesday and Saturday at 6 AM.",
+        "intent": "add_recurring_task_to_calendar",
+        "entities": [
+          {"entity": "title", "value": "swimming practice"},
+          {"entity": "from_date", "value": "Wednesday"},
+          {"entity": "end_date", "value": "Saturday"},
+          {"entity": "time_duration", "value": "6 AM to 7:30 AM"}
+        ]
+      },
+      {
+        "text": "Plan monthly game tournaments every last Saturday at 5 PM.",
+        "intent": "add_recurring_task_to_calendar",
+        "entities": [
+          {"entity": "title", "value": "game tournaments"},
+          {"entity": "from_date", "value": "last Saturday of each month"},
+          {"entity": "end_date", "value": "none"},
+          {"entity": "time_duration", "value": "5 PM to 8 PM"}
+        ]
+      },
+      {
+        "text": "Add a recurring book reading session every first Thursday at 4 PM.",
+        "intent": "add_recurring_task_to_calendar",
+        "entities": [
+          {"entity": "title", "value": "book reading session"},
+          {"entity": "from_date", "value": "first Thursday"},
+          {"entity": "end_date", "value": "none"},
+          {"entity": "time_duration", "value": "4 PM to 5 PM"}
+        ]
+      },
+      {
+        "text": "Schedule a weekly house cleaning session every Saturday at 9 AM.",
+        "intent": "add_recurring_task_to_calendar",
+        "entities": [
+          {"entity": "title", "value": "house cleaning session"},
+          {"entity": "from_date", "value": "every Saturday"},
+          {"entity": "end_date", "value": "none"},
+          {"entity": "time_duration", "value": "9 AM to 12 PM"}
+        ]
+      },
+      {
+        "text": "Set up a recurring grocery shopping trip every Sunday at 5 PM.",
+        "intent": "add_recurring_task_to_calendar",
+        "entities": [
+          {"entity": "title", "value": "grocery shopping trip"},
+          {"entity": "from_date", "value": "every Sunday"},
+          {"entity": "end_date", "value": "none"},
+          {"entity": "time_duration", "value": "5 PM to 6 PM"}
+        ]
+      },
+      {
+        "text": "Set up a daily sprint planning meeting every weekday at 9 AM.",
+        "intent": "add_recurring_task_to_calendar",
+        "entities": [
+          {"entity": "title", "value": "daily sprint planning meeting"},
+          {"entity": "from_date", "value": "Monday"},
+          {"entity": "end_date", "value": "Friday"},
+          {"entity": "time_duration", "value": "9 AM"}
+        ]
+      },
+      {
+        "text": "Schedule a recurring meeting every second Tuesday at 1 PM.",
+        "intent": "add_recurring_task_to_calendar",
+        "entities": [
+          {"entity": "title", "value": "bi-weekly meeting"},
+          {"entity": "from_date", "value": "Tuesday"},
+          {"entity": "end_date", "value": "Tuesday"},
+          {"entity": "time_duration", "value": "1 PM"}
+        ]
+      },
+      {
+        "text": "Book a recurring coding session every Saturday morning at 7 AM.",
+        "intent": "add_recurring_task_to_calendar",
+        "entities": [
+          {"entity": "title", "value": "coding session"},
+          {"entity": "from_date", "value": "Saturday"},
+          {"entity": "end_date", "value": "Saturday"},
+          {"entity": "time_duration", "value": "7 AM"}
+        ]
+      },
+      {
+        "text": "Arrange a recurring weekly feedback session every Monday at 3 PM.",
+        "intent": "add_recurring_task_to_calendar",
+        "entities": [
+          {"entity": "title", "value": "weekly feedback session"},
+          {"entity": "from_date", "value": "Monday"},
+          {"entity": "end_date", "value": "Monday"},
+          {"entity": "time_duration", "value": "3 PM"}
+        ]
+      },
+      {
+        "text": "Set up a recurring end-of-week team review every Friday at 4 PM.",
+        "intent": "add_recurring_task_to_calendar",
+        "entities": [
+          {"entity": "title", "value": "end-of-week team review"},
+          {"entity": "from_date", "value": "Friday"},
+          {"entity": "end_date", "value": "Friday"},
+          {"entity": "time_duration", "value": "4 PM"}
+        ]
+      },
+      {
+        "text": "Create a monthly one-on-one meeting with the team lead every first Tuesday at 2 PM.",
+        "intent": "add_recurring_task_to_calendar",
+        "entities": [
+          {"entity": "title", "value": "one-on-one meeting with team lead"},
+          {"entity": "from_date", "value": "first Tuesday of the month"},
+          {"entity": "end_date", "value": "first Tuesday of the month"},
+          {"entity": "time_duration", "value": "2 PM"}
+        ]
+      },
+      {
+        "text": "Plan a weekly team check-in every Friday at 5 PM.",
+        "intent": "add_recurring_task_to_calendar",
+        "entities": [
+          {"entity": "title", "value": "weekly team check-in"},
+          {"entity": "from_date", "value": "Friday"},
+          {"entity": "end_date", "value": "Friday"},
+          {"entity": "time_duration", "value": "5 PM"}
+        ]
+      },
+      {
+        "text": "Arrange a recurring office hours session every Wednesday at 10 AM.",
+        "intent": "add_recurring_task_to_calendar",
+        "entities": [
+          {"entity": "title", "value": "office hours session"},
+          {"entity": "from_date", "value": "Wednesday"},
+          {"entity": "end_date", "value": "Wednesday"},
+          {"entity": "time_duration", "value": "10 AM"}
+        ]
+      },
+      {
+        "text": "Set up a recurring weekly stand-up meeting every Tuesday at 9:30 AM.",
+        "intent": "add_recurring_task_to_calendar",
+        "entities": [
+          {"entity": "title", "value": "weekly stand-up meeting"},
+          {"entity": "from_date", "value": "Tuesday"},
+          {"entity": "end_date", "value": "Tuesday"},
+          {"entity": "time_duration", "value": "9:30 AM"}
+        ]
+      },
+      {
+        "text": "Schedule a recurring brainstorming session every Thursday at 4 PM.",
+        "intent": "add_recurring_task_to_calendar",
+        "entities": [
+          {"entity": "title", "value": "brainstorming session"},
+          {"entity": "from_date", "value": "Thursday"},
+          {"entity": "end_date", "value": "Thursday"},
+          {"entity": "time_duration", "value": "4 PM"}
+        ]
+      },
+      {
+        "text": "Create a recurring lunch break from 12 PM to 1 PM every weekday.",
+        "intent": "add_recurring_task_to_calendar",
+        "entities": [
+          {"entity": "title", "value": "lunch break"},
+          {"entity": "from_date", "value": "Monday"},
+          {"entity": "end_date", "value": "Friday"},
+          {"entity": "time_duration", "value": "12 PM to 1 PM"}
+        ]
+      },
+      {
+        "text": "Arrange a recurring fitness class every Wednesday at 7 PM.",
+        "intent": "add_recurring_task_to_calendar",
+        "entities": [
+          {"entity": "title", "value": "fitness class"},
+          {"entity": "from_date", "value": "Wednesday"},
+          {"entity": "end_date", "value": "Wednesday"},
+          {"entity": "time_duration", "value": "7 PM"}
+        ]
+      },
+      {
+        "text": "Set up a recurring weekly design review every Thursday at 2 PM.",
+        "intent": "add_recurring_task_to_calendar",
+        "entities": [
+          {"entity": "title", "value": "design review"},
+          {"entity": "from_date", "value": "Thursday"},
+          {"entity": "end_date", "value": "Thursday"},
+          {"entity": "time_duration", "value": "2 PM"}
+        ]
+      },
+      {
+        "text": "Create a recurring monthly team celebration every last Friday of the month at 6 PM.",
+        "intent": "add_recurring_task_to_calendar",
+        "entities": [
+          {"entity": "title", "value": "team celebration"},
+          {"entity": "from_date", "value": "last Friday of the month"},
+          {"entity": "end_date", "value": "last Friday of the month"},
+          {"entity": "time_duration", "value": "6 PM"}
+        ]
+      },
+      {
+        "text": "Set up a recurring training session every second Tuesday at 11 AM.",
+        "intent": "add_recurring_task_to_calendar",
+        "entities": [
+          {"entity": "title", "value": "training session"},
+          {"entity": "from_date", "value": "second Tuesday of the month"},
+          {"entity": "end_date", "value": "second Tuesday of the month"},
+          {"entity": "time_duration", "value": "11 AM"}
+        ]
+      },
+      {
+        "text": "Schedule a recurring office check-in every Friday at 12 PM.",
+        "intent": "add_recurring_task_to_calendar",
+        "entities": [
+          {"entity": "title", "value": "office check-in"},
+          {"entity": "from_date", "value": "Friday"},
+          {"entity": "end_date", "value": "Friday"},
+          {"entity": "time_duration", "value": "12 PM"}
+        ]
+      },
+      {
+        "text": "Create a recurring sales meeting every first Monday of the month at 8 AM.",
+        "intent": "add_recurring_task_to_calendar",
+        "entities": [
+          {"entity": "title", "value": "sales meeting"},
+          {"entity": "from_date", "value": "first Monday of the month"},
+          {"entity": "end_date", "value": "first Monday of the month"},
+          {"entity": "time_duration", "value": "8 AM"}
+        ]
+      },
+      {
+        "text": "Arrange a recurring research meeting every Thursday at 1 PM.",
+        "intent": "add_recurring_task_to_calendar",
+        "entities": [
+          {"entity": "title", "value": "research meeting"},
+          {"entity": "from_date", "value": "Thursday"},
+          {"entity": "end_date", "value": "Thursday"},
+          {"entity": "time_duration", "value": "1 PM"}
+        ]
+      },
+      {
+        "text": "Set up a recurring coffee break every Friday at 3 PM.",
+        "intent": "add_recurring_task_to_calendar",
+        "entities": [
+          {"entity": "title", "value": "coffee break"},
+          {"entity": "from_date", "value": "Friday"},
+          {"entity": "end_date", "value": "Friday"},
+          {"entity": "time_duration", "value": "3 PM"}
+        ]
+      }      
+  ],
+  "view_schedule":[
+    {
+      "text": "What’s on my calendar for today?",
+      "intent": "view_schedule",
+      "entities": [
+        {"entity": "date", "value": "today"},
+        {"entity": "time_duration", "value": "0:00 to 24:00"}
+      ]
+    },
+    {
+      "text": "Can you show me my schedule for tomorrow?",
+      "intent": "view_schedule",
+      "entities": [
+        {"entity": "date", "value": "tomorrow"},
+        {"entity": "time_duration", "value": "0:00 to 24:00"}
+      ]
+    },
+    {
+      "text": "What do I have planned for the next week?",
+      "intent": "view_schedule",
+      "entities": [
+        {"entity": "date", "value": "next week"},
+        {"entity": "time_duration", "value": "0:00 to 24:00"}
+      ]
+    },
+    {
+      "text": "Show me my schedule for this afternoon.",
+      "intent": "view_schedule",
+      "entities": [
+        {"entity": "date", "value": "today"},
+        {"entity": "time_duration", "value": "12:00 PM to 6:00 PM"}
+      ]
+    },
+    {
+      "text": "What’s on my calendar for this week?",
+      "intent": "view_schedule",
+      "entities": [
+        {"entity": "date", "value": "this week"},
+        {"entity": "time_duration", "value": "0:00 to 24:00"}
+      ]
+    },
+    {
+      "text": "Can you tell me what’s scheduled for tomorrow between 9 AM and 12 PM?",
+      "intent": "view_schedule",
+      "entities": [
+        {"entity": "date", "value": "tomorrow"},
+        {"entity": "time_duration", "value": "9 AM to 12 PM"}
+      ]
+    },
+    {
+      "text": "What do I have for the next two days?",
+      "intent": "view_schedule",
+      "entities": [
+        {"entity": "date", "value": "next two days"},
+        {"entity": "time_duration", "value": "0:00 to 24:00"}
+      ]
+    },
+    {
+      "text": "Please show me my tasks scheduled for this weekend.",
+      "intent": "view_schedule",
+      "entities": [
+        {"entity": "date", "value": "this weekend"},
+        {"entity": "time_duration", "value": "0:00 to 24:00"}
+      ]
+    },
+    {
+      "text": "What’s my plan for next Wednesday?",
+      "intent": "view_schedule",
+      "entities": [
+        {"entity": "date", "value": "next Wednesday"},
+        {"entity": "time_duration", "value": "0:00 to 24:00"}
+      ]
+    },
+    {
+      "text": "What do I have from 3 PM to 5 PM on Friday?",
+      "intent": "view_schedule",
+      "entities": [
+        {"entity": "date", "value": "Friday"},
+        {"entity": "time_duration", "value": "3 PM to 5 PM"}
+      ]
+    },
+    {
+      "text": "What’s my calendar like for the last two days of this week?",
+      "intent": "view_schedule",
+      "entities": [
+        {"entity": "date", "value": "this week"},
+        {"entity": "time_duration", "value": "Friday 6:00 PM to Sunday 11:59 PM"}
+      ]
+    },
+    {
+      "text": "Show me my meetings for the first half of next week.",
+      "intent": "view_schedule",
+      "entities": [
+        {"entity": "date", "value": "next week"},
+        {"entity": "time_duration", "value": "Monday to Wednesday 0:00 to 12:00"}
+      ]
+    },
+    {
+      "text": "What’s on my calendar tomorrow at 10 AM?",
+      "intent": "view_schedule",
+      "entities": [
+        {"entity": "date", "value": "tomorrow"},
+        {"entity": "time_duration", "value": "10 AM to 11 AM"}
+      ]
+    },
+    {
+      "text": "Can you show me what I have from 1 PM to 3 PM today?",
+      "intent": "view_schedule",
+      "entities": [
+        {"entity": "date", "value": "today"},
+        {"entity": "time_duration", "value": "1 PM to 3 PM"}
+      ]
+    },
+    {
+      "text": "What’s scheduled on my calendar for Saturday evening?",
+      "intent": "view_schedule",
+      "entities": [
+        {"entity": "date", "value": "Saturday"},
+        {"entity": "time_duration", "value": "6:00 PM to 11:59 PM"}
+      ]
+    },
+    {
+      "text": "What do I have on Monday from 9 AM to 5 PM?",
+      "intent": "view_schedule",
+      "entities": [
+        {"entity": "date", "value": "Monday"},
+        {"entity": "time_duration", "value": "9 AM to 5 PM"}
+      ]
+    },
+    {
+      "text": "Can you show me my tasks for this Friday from 2 PM to 4 PM?",
+      "intent": "view_schedule",
+      "entities": [
+        {"entity": "date", "value": "Friday"},
+        {"entity": "time_duration", "value": "2 PM to 4 PM"}
+      ]
+    },
+    {
+      "text": "What’s on my calendar for the last day of the month?",
+      "intent": "view_schedule",
+      "entities": [
+        {"entity": "date", "value": "last day of the month"},
+        {"entity": "time_duration", "value": "0:00 to 24:00"}
+      ]
+    },
+    {
+      "text": "Show me my schedule for Tuesday afternoon.",
+      "intent": "view_schedule",
+      "entities": [
+        {"entity": "date", "value": "Tuesday"},
+        {"entity": "time_duration", "value": "12:00 PM to 6:00 PM"}
+      ]
+    },
+    {
+      "text": "What do I have scheduled for next Friday from 10 AM to 12 PM?",
+      "intent": "view_schedule",
+      "entities": [
+        {"entity": "date", "value": "next Friday"},
+        {"entity": "time_duration", "value": "10 AM to 12 PM"}
+      ]
+    },
+    {
+      "text": "Can you tell me what’s on my calendar for this evening?",
+      "intent": "view_schedule",
+      "entities": [
+        {"entity": "date", "value": "today"},
+        {"entity": "time_duration", "value": "6:00 PM to 11:59 PM"}
+      ]
+    },
+    {
+      "text": "Please show me my meetings for the first Monday of next month.",
+      "intent": "view_schedule",
+      "entities": [
+        {"entity": "date", "value": "first Monday of next month"},
+        {"entity": "time_duration", "value": "0:00 to 24:00"}
+      ]
+    },
+    {
+      "text": "What do I have scheduled from 11 AM to 1 PM tomorrow?",
+      "intent": "view_schedule",
+      "entities": [
+        {"entity": "date", "value": "tomorrow"},
+        {"entity": "time_duration", "value": "11 AM to 1 PM"}
+      ]
+    },
+    {
+      "text": "Show me what’s on my calendar for next week’s Wednesday at 3 PM.",
+      "intent": "view_schedule",
+      "entities": [
+        {"entity": "date", "value": "next Wednesday"},
+        {"entity": "time_duration", "value": "3 PM to 4 PM"}
+      ]
+    },
+    {
+      "text": "What do I have for tomorrow from 8 AM to 9:30 AM?",
+      "intent": "view_schedule",
+      "entities": [
+        {"entity": "date", "value": "tomorrow"},
+        {"entity": "time_duration", "value": "8 AM to 9:30 AM"}
+      ]
+    },
+    {
+      "text": "Can you tell me my schedule for the weekend from Friday evening to Sunday night?",
+      "intent": "view_schedule",
+      "entities": [
+        {"entity": "date", "value": "this weekend"},
+        {"entity": "time_duration", "value": "Friday 6:00 PM to Sunday 11:59 PM"}
+      ]
+    },
+    {
+      "text": "Show me my calendar for the entire next month.",
+      "intent": "view_schedule",
+      "entities": [
+        {"entity": "date", "value": "next month"},
+        {"entity": "time_duration", "value": "0:00 to 24:00"}
+      ]
+    },
+    {
+      "text": "What do I have scheduled for this upcoming Tuesday from 2 PM to 5 PM?",
+      "intent": "view_schedule",
+      "entities": [
+        {"entity": "date", "value": "next Tuesday"},
+        {"entity": "time_duration", "value": "2 PM to 5 PM"}
+      ]
+    },
+    {
+      "text": "Can you show me my schedule for today after 6 PM?",
+      "intent": "view_schedule",
+      "entities": [
+        {"entity": "date", "value": "today"},
+        {"entity": "time_duration", "value": "6 PM to 11:59 PM"}
+      ]
+    },
+    {
+        "text": "What do I have scheduled for tomorrow morning?",
+        "intent": "view_schedule",
+        "entities": [
+          {"entity": "date", "value": "tomorrow"},
+          {"entity": "time_duration", "value": "6:00 AM to 12:00 PM"}
+        ]
+      },
+      {
+        "text": "Show me my meetings for this week between 9 AM and 6 PM.",
+        "intent": "view_schedule",
+        "entities": [
+          {"entity": "date", "value": "this week"},
+          {"entity": "time_duration", "value": "9 AM to 6 PM"}
+        ]
+      },
+      {
+        "text": "Can you show me what I have from 2 PM to 4 PM on next Thursday?",
+        "intent": "view_schedule",
+        "entities": [
+          {"entity": "date", "value": "next Thursday"},
+          {"entity": "time_duration", "value": "2 PM to 4 PM"}
+        ]
+      },
+      {
+        "text": "Please show me all my tasks for the next three days.",
+        "intent": "view_schedule",
+        "entities": [
+          {"entity": "date", "value": "next three days"},
+          {"entity": "time_duration", "value": "0:00 to 24:00"}
+        ]
+      },
+      {
+        "text": "What’s on my calendar this weekend?",
+        "intent": "view_schedule",
+        "entities": [
+          {"entity": "date", "value": "this weekend"},
+          {"entity": "time_duration", "value": "0:00 to 24:00"}
+        ]
+      },
+      {
+        "text": "Can you tell me if I have any free time between 1 PM and 3 PM tomorrow?",
+        "intent": "view_schedule",
+        "entities": [
+          {"entity": "date", "value": "tomorrow"},
+          {"entity": "time_duration", "value": "1 PM to 3 PM"}
+        ]
+      },
+      {
+        "text": "What do I have for the first two days of next week?",
+        "intent": "view_schedule",
+        "entities": [
+          {"entity": "date", "value": "next week"},
+          {"entity": "time_duration", "value": "Monday to Tuesday 0:00 to 24:00"}
+        ]
+      },
+      {
+        "text": "Show me my tasks from 10 AM to 12 PM on Monday.",
+        "intent": "view_schedule",
+        "entities": [
+          {"entity": "date", "value": "Monday"},
+          {"entity": "time_duration", "value": "10 AM to 12 PM"}
+        ]
+      },
+      {
+        "text": "Can you check if I have any meetings tomorrow after 3 PM?",
+        "intent": "view_schedule",
+        "entities": [
+          {"entity": "date", "value": "tomorrow"},
+          {"entity": "time_duration", "value": "3 PM to 11:59 PM"}
+        ]
+      },
+      {
+        "text": "What’s on my calendar for the first week of next month?",
+        "intent": "view_schedule",
+        "entities": [
+          {"entity": "date", "value": "first week of next month"},
+          {"entity": "time_duration", "value": "0:00 to 24:00"}
+        ]
+      },
+      {
+        "text": "Please show me the tasks I have for next Friday from 3 PM to 6 PM.",
+        "intent": "view_schedule",
+        "entities": [
+          {"entity": "date", "value": "next Friday"},
+          {"entity": "time_duration", "value": "3 PM to 6 PM"}
+        ]
+      },
+      {
+        "text": "Can you tell me if I have any calls scheduled for this afternoon?",
+        "intent": "view_schedule",
+        "entities": [
+          {"entity": "date", "value": "today"},
+          {"entity": "time_duration", "value": "12:00 PM to 6:00 PM"}
+        ]
+      },
+      {
+        "text": "Show me the events I have scheduled for this weekend from 9 AM to 12 PM.",
+        "intent": "view_schedule",
+        "entities": [
+          {"entity": "date", "value": "this weekend"},
+          {"entity": "time_duration", "value": "9 AM to 12 PM"}
+        ]
+      },
+      {
+        "text": "What’s on my calendar for next Monday between 2 PM and 5 PM?",
+        "intent": "view_schedule",
+        "entities": [
+          {"entity": "date", "value": "next Monday"},
+          {"entity": "time_duration", "value": "2 PM to 5 PM"}
+        ]
+      },
+      {
+        "text": "Can you check my schedule for tomorrow at 11 AM?",
+        "intent": "view_schedule",
+        "entities": [
+          {"entity": "date", "value": "tomorrow"},
+          {"entity": "time_duration", "value": "11 AM to 12 PM"}
+        ]
+      },
+      {
+        "text": "Please show me my calendar for next week’s Tuesday evening.",
+        "intent": "view_schedule",
+        "entities": [
+          {"entity": "date", "value": "next Tuesday"},
+          {"entity": "time_duration", "value": "6:00 PM to 11:59 PM"}
+        ]
+      },
+      {
+        "text": "What’s scheduled for me on the last day of this month?",
+        "intent": "view_schedule",
+        "entities": [
+          {"entity": "date", "value": "last day of this month"},
+          {"entity": "time_duration", "value": "0:00 to 24:00"}
+        ]
+      },
+      {
+        "text": "Can you show me my meetings for the first weekend of next month?",
+        "intent": "view_schedule",
+        "entities": [
+          {"entity": "date", "value": "first weekend of next month"},
+          {"entity": "time_duration", "value": "0:00 to 24:00"}
+        ]
+      },
+      {
+        "text": "What do I have scheduled for next Thursday morning?",
+        "intent": "view_schedule",
+        "entities": [
+          {"entity": "date", "value": "next Thursday"},
+          {"entity": "time_duration", "value": "6:00 AM to 12:00 PM"}
+        ]
+      },
+      {
+        "text": "What’s on my agenda for next Friday evening?",
+        "intent": "view_schedule",
+        "entities": [
+          {"entity": "date", "value": "next Friday"},
+          {"entity": "time_duration", "value": "6:00 PM to 11:59 PM"}
+        ]
+      },
+      {
+        "text": "Can you tell me my tasks for this Wednesday afternoon?",
+        "intent": "view_schedule",
+        "entities": [
+          {"entity": "date", "value": "this Wednesday"},
+          {"entity": "time_duration", "value": "12:00 PM to 6:00 PM"}
+        ]
+      },
+      {
+        "text": "What do I have on my schedule for the last weekend of this month?",
+        "intent": "view_schedule",
+        "entities": [
+          {"entity": "date", "value": "last weekend of this month"},
+          {"entity": "time_duration", "value": "0:00 to 24:00"}
+        ]
+      },
+      {
+        "text": "Please show me my events for the first two hours of tomorrow.",
+        "intent": "view_schedule",
+        "entities": [
+          {"entity": "date", "value": "tomorrow"},
+          {"entity": "time_duration", "value": "12:00 AM to 2:00 AM"}
+        ]
+      },
+      {
+        "text": "Do I have anything planned for next Sunday morning?",
+        "intent": "view_schedule",
+        "entities": [
+          {"entity": "date", "value": "next Sunday"},
+          {"entity": "time_duration", "value": "6:00 AM to 12:00 PM"}
+        ]
+      },
+      {
+        "text": "What’s scheduled for me on the second Monday of next month?",
+        "intent": "view_schedule",
+        "entities": [
+          {"entity": "date", "value": "second Monday of next month"},
+          {"entity": "time_duration", "value": "0:00 to 24:00"}
+        ]
+      },
+      {
+        "text": "Can you show me my meetings for this week on Thursday?",
+        "intent": "view_schedule",
+        "entities": [
+          {"entity": "date", "value": "this Thursday"},
+          {"entity": "time_duration", "value": "0:00 to 24:00"}
+        ]
+      },
+      {
+        "text": "Tell me my plans for next month’s first Saturday evening.",
+        "intent": "view_schedule",
+        "entities": [
+          {"entity": "date", "value": "first Saturday of next month"},
+          {"entity": "time_duration", "value": "6:00 PM to 11:59 PM"}
+        ]
+      },
+      {
+        "text": "What do I have booked for the coming Tuesday at noon?",
+        "intent": "view_schedule",
+        "entities": [
+          {"entity": "date", "value": "coming Tuesday"},
+          {"entity": "time_duration", "value": "12:00 PM to 1:00 PM"}
+        ]
+      },
+      {
+        "text": "Can you list my tasks for today between 4 PM and 5 PM?",
+        "intent": "view_schedule",
+        "entities": [
+          {"entity": "date", "value": "today"},
+          {"entity": "time_duration", "value": "4:00 PM to 5:00 PM"}
+        ]
+      }
+  ]  
+}
