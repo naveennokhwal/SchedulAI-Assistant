@@ -12,6 +12,7 @@ spacy
 joblib
 numpy
 scikit-learn
+torch
 
 # Note: Frontend dependencies are managed through package.json
 # Run 'npm install' to install frontend dependencies
