@@ -11,7 +11,7 @@ transformers
 spacy
 joblib
 numpy
-sklearn
+scikit-learn
 sqlite3
 
 # Note: Frontend dependencies are managed through package.json
