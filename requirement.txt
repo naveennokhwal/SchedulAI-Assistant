@@ -1,0 +1,18 @@
+# Backend Dependencies
+fastapi[standard]>=0.109.0  # Web framework with all standard dependencies including uvicorn
+python-multipart>=0.0.9    # For handling form-data and file uploads
+pydantic>=2.6.0           # Data validation
+python-jose[cryptography]>=3.3.0  # For JWT tokens
+passlib[bcrypt]>=1.7.4    # Password hashing
+python-dotenv>=1.0.0      # Environment variables
+SQLAlchemy>=2.0.0        # Database ORM
+aiosqlite>=0.19.0        # Async SQLite driver
+transformers
+spacy
+joblib
+numpy
+sklearn
+sqlite3
+
+# Note: Frontend dependencies are managed through package.json
+# Run 'npm install' to install frontend dependencies

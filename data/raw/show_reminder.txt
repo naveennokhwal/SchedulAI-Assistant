@@ -1,0 +1,150 @@
+Can you show me all my current reminders?
+Please list all the reminders I have set for today.
+What reminders do I have scheduled for this week?
+Display all my upcoming reminders for the month.
+Can you show me my reminders for important deadlines?
+Please list the reminders I have for appointments this week.
+What are all the reminders I’ve created so far?
+Show me the reminders that go off on weekends.
+Can you display my reminders to check the mail?
+Please show me my reminders for family events.
+What reminders do I have set for this evening?
+Can you list all my daily reminders?
+Please show me the reminder for my yoga class next week.
+What are the details of my pet care reminders?
+Can you tell me when my next reminder to take medication is scheduled?
+Please list all my reminders related to meetings.
+What reminders do I have set for birthdays this month?
+Show me the reminder for my child’s school event next Friday.
+Can you tell me when my next reminder to pay bills is due?
+Please display all reminders that I've set for grocery shopping.
+What are the details of my upcoming webinar alerts?
+Can you show me the reminder set for sending thank-you notes?
+Please list all my reminders to practice guitar.
+What time do I have set for my family game night reminder?
+Can you display my reminders about checking in with friends?
+Please show me when I need to prepare dinner tonight.
+What are the details of my library book return alerts?
+Can you tell me when my next reminder to water the plants is scheduled?
+Please list all my alarms related to appointments that have already passed.
+Show me the times of my weekly team meeting reminders.
+What are all the alerts I have set for cleaning tasks this month?
+Can you display all my reminders for special occasions?
+Please show me when I need to send invitations for upcoming events.
+What are the details of my monthly budget review reminders?
+Can you tell me when my next reminder to check in with Grandma is scheduled?
+Please list all my alarms that go off at 8 AM.
+Show me the reminder I set for picking up groceries on Saturday.
+What are the details of my cooking session alerts?
+Can you display all reminders related to work deadlines?
+Please show me when I need to schedule a follow-up appointment with the doctor.
+What are all the alerts I have set for family gatherings this month?
+Can you tell me when I need to practice meditation again?
+Please list all my reminders about renewing subscriptions.
+Show me the times of my alarms related to personal projects.
+What are the details of my upcoming travel plans alerts?
+Can you display all my reminders for checking emails every morning?
+Please show me when I need to send birthday gifts this year.
+What are the details of my pet grooming appointment reminders?
+Can you tell me when I need to prepare notes before meetings?
+Please list all my reminders about important anniversaries.
+Can you show me all my reminders for this month?
+Please list the reminders I have for my appointments next week.
+What reminders do I have set for today’s tasks?
+Show me the reminders I created for my family’s birthdays.
+Can you display my reminders for checking in with friends?
+Please tell me when my next reminder to practice piano is scheduled.
+What are all the alerts I have set for upcoming deadlines?
+Can you show me the reminder for my child’s soccer game this weekend?
+Please list all my reminders related to household chores.
+What are the details of my reminders for special events this month?
+Can you tell me when my next reminder to send out invitations is set?
+Please show me all my reminders for important meetings.
+What are the times of my reminders to take breaks during work?
+Can you display my reminders for medication refills?
+Please list all my alerts for family gatherings this year.
+What reminders do I have set for grocery shopping this week?
+Can you show me when I need to return library books?
+Please tell me about my upcoming anniversaries and related reminders.
+What are the details of my reminders for personal projects?
+Can you display all my alarms related to checking bills?
+Please show me when I need to prepare notes for meetings.
+What reminders do I have set for my exercise routine?
+Can you list all my reminders for upcoming travel plans?
+Please tell me when I need to send thank-you notes after events.
+What are all the alerts I have set to check on family members?
+Show my doctor's appointment reminder for 2:30 PM tomorrow
+Display all my medicine reminders set for 9 AM daily
+What's my reminder for the team meeting at 11:30 AM Friday?
+Show my grocery shopping reminder for 4 PM tomorrow
+List my dentist reminder scheduled for 10:15 AM Tuesday
+Display the presentation reminder for 3 PM Wednesday
+Check my yoga class reminder for 6 AM tomorrow
+Show all reminders set for 1 PM today
+What's my bill payment reminder time for 5:30 PM?
+Display kids' pickup reminder set for 2:45 PM daily
+Show the package delivery reminder for 12 PM tomorrow
+List my assignment reminder for 8 PM tonight
+Check the lunch meeting reminder for 12:30 PM Thursday
+Show my daily stock check reminder for 9:30 AM
+Display plant watering reminder set for 6:30 PM
+What's my conference call reminder for 10 AM tomorrow?
+Show medication reminders scheduled for 3:15 PM daily
+List the birthday party reminder for 7:30 PM Saturday
+Display my gym reminders set for 5 AM weekdays
+Check the report submission reminder for 4:45 PM
+Show tonight's dinner reminder for 8:30 PM
+What's my car service reminder time for 11 AM?
+Display the flight reminder for 6:15 AM Monday
+List my interview reminder for 2 PM Wednesday
+Show the laundry reminder for 10:30 AM Sunday
+Check the webinar reminder set for 1:30 PM
+Display pet feeding reminders for 7:15 AM and 7:15 PM
+What's my Monday meeting reminder at 9:45 AM?
+Show the physiotherapy reminder for 3:30 PM
+List my online class reminder for 5:15 PM
+Check mail reminder scheduled for 8:15 AM
+Display the concert reminder for 7:45 PM Friday
+Show my medication reminder for 12:15 PM
+What's tomorrow's client call reminder at 10:45 AM?
+List the movie reminder set for 6:45 PM Saturday
+Display my haircut reminder for 1:15 PM
+Show the phone charging reminder for 11:45 PM
+Check the soccer game reminder for 4:15 PM Sunday
+What's my workshop reminder time for 2:15 PM?
+Display bank appointment reminder for 9:15 AM
+Show the file upload reminder for 5:45 PM
+List piano lesson reminder for 3:45 PM
+Check the boss meeting reminder for 11:15 AM
+Display tomorrow's train reminder for 8:45 AM
+What's my project deadline reminder at 6:30 PM?
+Show the doctor's visit reminder for 4:30 PM
+List ticket booking reminder for 12:45 PM
+Display lecture reminder set for 10:15 AM Monday
+Check eye drops reminder for 7:30 AM daily
+Show dance class reminder for 5:30 PM
+What's my client call reminder at 1:45 PM?
+Display staff meeting reminder for 9:30 AM
+List today's prescription reminder for 2:30 PM
+Show exam reminder set for 8:30 AM Monday
+Check parent meeting reminder for 4:15 PM
+Display video call reminder for 11:30 AM
+What's my rent payment reminder time for 3 PM?
+Show Friday's dentist reminder for 10:30 AM
+List study group reminder for 6:15 PM
+Check swimming class reminder for 7:15 AM
+Display today's invoice reminder for 5:15 PM
+Show book club reminder for 8:15 PM
+What's my visa appointment reminder at 12:30 PM?
+List vaccine reminder set for 11:15 AM
+Display team lunch reminder for 1:15 PM tomorrow
+Show oil change reminder for 3:15 PM
+Check grocery order reminder for 9:45 PM
+What's Tuesday's meeting reminder time for 2:45 PM?
+Display assignment reminder for 7:45 PM
+List fitness class reminder for 6:45 AM
+Show lunch packing reminder for 8:45 PM
+Check Saturday's party reminder for 5:45 PM
+Display passport reminder for 10:45 AM
+What's my driving lesson reminder at 4:45 PM?
+Show daily medication reminder for 2:15 PM
