@@ -12,7 +12,6 @@ spacy
 joblib
 numpy
 scikit-learn
-sqlite3
 
 # Note: Frontend dependencies are managed through package.json
 # Run 'npm install' to install frontend dependencies
